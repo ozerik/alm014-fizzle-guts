@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FZ-FILTER")(type "KiCad")(uri "$(KIPRJMOD)/FZ-FILTER.pretty")(options "")(descr ""))
+)

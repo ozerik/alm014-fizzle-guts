@@ -1,0 +1,220 @@
+(footprint "SMB-DIODE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode\n\nBasic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16")
+	(property "Reference" "REF**"
+		(at -2.159 -2.159 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "609bb4bc-3879-4a8b-ab51-c7e656a23c08")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SMB-DIODE"
+		(at -1.905 3.429 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "42657032-54ba-47ec-be36-841aa503f495")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6545264b-3baf-43f4-84c7-dfc0b0aa06ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5b20c4b-75b8-433d-a815-f40b6f92705b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.2606 -1.905)
+		(end 2.2606 -1.905)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d6c6fe3-a7e2-42c7-8e06-9c73a89d4d86")
+	)
+	(fp_line
+		(start -2.2606 1.905)
+		(end 2.2606 1.905)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf94f2e3-f2c0-4dcf-a6b0-d08b86d6710e")
+	)
+	(fp_line
+		(start -0.73 -1)
+		(end -0.73 1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee0ab194-0f6e-44ae-9d14-075a5f4c3bea")
+	)
+	(fp_line
+		(start -0.73 0)
+		(end 0.643 1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae4bb6b8-1bee-4da4-bbfe-6f8398ee1169")
+	)
+	(fp_line
+		(start 0.643 -1)
+		(end -0.73 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "774c726e-be9f-4e92-8e3e-8567eb12ac7f")
+	)
+	(fp_line
+		(start 0.643 1)
+		(end 0.643 -1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f63d455-4cc0-4873-9a26-fc5e126ee430")
+	)
+	(fp_line
+		(start -3.973 -1.983)
+		(end 3.973 -1.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31c541ad-b730-43c1-a29f-aabf085531cf")
+	)
+	(fp_line
+		(start -3.973 1.983)
+		(end -3.973 -1.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "844e4cb8-4aa8-44ac-a35a-f59a43ceef69")
+	)
+	(fp_line
+		(start 3.973 -1.983)
+		(end 3.973 1.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cff167b-5678-436a-b412-2b47e19b9e32")
+	)
+	(fp_line
+		(start 3.973 1.983)
+		(end -3.973 1.983)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "872adc7c-79f3-459f-8ea3-656943c47bae")
+	)
+	(fp_line
+		(start -2.261 1.905)
+		(end -2.261 -1.905)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e58973c-b670-40fb-a5b4-a5ad8bad2921")
+	)
+	(fp_line
+		(start 2.261 1.905)
+		(end 2.261 -1.905)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89a79ff7-24a3-47cb-9107-16d796ec8c42")
+	)
+	(fp_poly
+		(pts
+			(xy -2.794 1.0922) (xy -2.2606 1.0922) (xy -2.2606 -1.0922) (xy -2.794 -1.0922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "524649f0-d7a1-4cda-a4c9-6bed09455eff")
+	)
+	(fp_poly
+		(pts
+			(xy 2.2606 1.0922) (xy 2.794 1.0922) (xy 2.794 -1.0922) (xy 2.2606 -1.0922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "ba200f98-8908-49ee-bab5-4d4f3c30735c")
+	)
+	(pad "A" smd rect
+		(at 2.2 0)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "afc5854d-8c82-4979-94f3-ccf0877bcb31")
+	)
+	(pad "C" smd rect
+		(at -2.2 0)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "f35b6215-8bb0-42de-8df6-c647fe44cc4b")
+	)
+	(embedded_fonts no)
+)

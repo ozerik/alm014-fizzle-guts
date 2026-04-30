@@ -1,5 +1,7 @@
 * M4TM FZilter
 
+[[FZilter.png]]
+
 ** Introduction
 
 Here's my take on the excellent Fizzle Guts module by ALM/BusyCircuits. It rules.
@@ -25,12 +27,11 @@ but I don't have a Macintosh computer, or a USBTiny programmer. I just have a HP
 losing them and making new ones. AND I'm not super comofortable with avrdude... so I'll include the .hex file over in the firmware folder and a bit of explanation of the
 commands. It may be possible to brick the ATMega644 processor by setting fuses, at least something like that may have happened with one of mine.
 
-<blockquote>
-To use the original shell script...
+> To use the original shell script...
 
-You'll need a basic 'usbtiny' AVR programmer.
+> You'll need a basic 'usbtiny' AVR programmer.
 
-You'll need to install avr-gcc and avrdude.
+> You'll need to install avr-gcc and avrdude.
   
    /(On mac using brew..)/
    #+BEGIN_SRC
@@ -43,7 +44,6 @@ You'll need to install avr-gcc and avrdude.
 
 then run './flash.sh' (with your programmer connected) to program the
 Fizzle.
-</blockquote>
 
 ** License
 
